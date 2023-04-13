@@ -26,6 +26,9 @@ bodyh1,h2,h3,h4,h5,p,a{
 
     
 }
+.img{
+    display: flex;
+}
 .block{
     display: flex;
     max-width: 200px;
@@ -40,12 +43,8 @@ bodyh1,h2,h3,h4,h5,p,a{
     flex-direction: column;
     justify-content: space-between;
 }
-.menu_items{
-    display: flex;
-    justify-content:space-around;
-    flex: 1;
-    align-items: flex-start;
-}
+
+
 .but{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
@@ -70,16 +69,36 @@ bodyh1,h2,h3,h4,h5,p,a{
     justify-content: space-around;
     display: flex;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50%;
     color: aliceblue;
     background-color:rgb(33, 103, 255);
+    margin-left: 10px;
+
+    
 }
 .butV:hover{
     border: 1px solid rgb(126, 71, 255);
     justify-content: space-around;
     display: flex;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 50%;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
+.img{
+     position: relative;
+    text-align: center;
+    color: rgba(136, 80, 80, 0);
+}
+.textpov{
+     position: absolute;
+    text-align-last: auto;
+    
+    height: 200px;
+    width: 200px;
+
+     
+    
+}
+
